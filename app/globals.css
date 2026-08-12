@@ -1,0 +1,20 @@
+@import "tailwindcss";
+
+:root {
+  --font-arabic: "Segoe UI", "Tahoma", "Arial", system-ui, sans-serif;
+}
+
+html {
+  font-family: var(--font-arabic);
+}
+
+body {
+  background-color: #f1f5f9;
+}
+
+input[type="date"],
+input[type="time"],
+input[type="month"] {
+  direction: ltr;
+  text-align: right;
+}
